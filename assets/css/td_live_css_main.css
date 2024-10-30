@@ -1,0 +1,105 @@
+.tdw-welcome-panel {
+  margin-top: 30px;
+}
+.tdw-welcome-panel .welcome-panel {
+  margin-top: 60px;
+}
+.tdw-welcome-panel .welcome-panel h2 {
+  margin-bottom: 20px;
+}
+#tdw-css-writer {
+  width: 400px;
+  position: fixed;
+  top: 32px;
+  left: 0;
+  background-color: white;
+  z-index: 9999;
+  -webkit-box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.1);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+  line-height: 19px !important;
+  font-size: 14px !important;
+}
+.tdw-visible {
+  display: block !important;
+}
+.tdw-tabs-wrap {
+  padding: 15px 15px 0 15px;
+  border-bottom: 1px solid #ececec;
+}
+.tdw-tab {
+  display: inline-block;
+  padding: 4px 5px 4px 5px;
+  border: 1px solid transparent;
+  top: 1px;
+  position: relative;
+  font-size: 12px;
+  color: #1b1b1b;
+}
+.tdc-tab-active {
+  border-top: 1px solid #ececec;
+  border-right: 1px solid #ececec;
+  border-left: 1px solid #ececec;
+  background-color: #fff;
+  z-index: 1;
+}
+.tdw-tab-has-css {
+  background-color: #1b1b1b;
+  border-radius: 3px;
+  height: 3px;
+  width: 3px;
+  display: inline-block;
+  position: relative;
+  left: 3px;
+  top: -2px;
+  margin-right: 5px;
+}
+.tdw-tabs-content-wrap {
+  padding: 18px 13px 15px 14px;
+  background-color: #fff;
+  position: relative;
+}
+.tdw-tabs-content {
+  display: none;
+  min-height: 300px;
+}
+.tdc-tab-content-active {
+  display: block;
+}
+.td-code-editor {
+  height: 450px;
+  margin-right: 14px;
+  border: 1px solid #e6e6e6;
+}
+.tdw-css-writer-editor {
+  display: none;
+}
+.tdw-save-css {
+  display: inline-block;
+  background-color: #4ea0ec;
+  padding: 10px 10px;
+  color: white;
+  margin: 3px 0 15px 15px;
+  position: relative;
+}
+.tdw-saving-animation:before {
+  left: 0;
+  top: 0;
+  content: '';
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: #4db2ec url("../images/loader-small.gif") no-repeat;
+  background-position: center;
+}
+.tdw-more-info-text {
+  font-size: 11px;
+  position: absolute;
+  left: 83px;
+  bottom: 20px;
+  width: 290px;
+  color: rgba(79, 79, 79, 0.63);
+  line-height: 15px;
+}
